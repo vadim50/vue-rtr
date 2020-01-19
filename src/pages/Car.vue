@@ -12,7 +12,7 @@
 				<router-link 
 		class="btn btn-sm btn-info mt-2"
 		tag="button"
-		:to="{name: 'carFull',params: {id: id}, query:{name: 'Mazda', year: 2000}}"
+		:to="{name: 'carFull',params: {id: id}, query:{name: 'Mazda', year: 2000}, hash: '#scroll'}"
 
 		>Full info</router-link>
 		<hr>
